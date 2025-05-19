@@ -1,0 +1,54 @@
+\documentclass[10pt, a4j, twocolumn]{jsarticle}
+
+\usepackage[top=25truemm,bottom=20truemm,left=20truemm,right=20truemm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{here}
+\usepackage{stfloats}
+\usepackage{url}
+\usepackage{listings,jvlisting}
+
+\pagestyle{fancy}    
+    \lhead{}
+    \rhead{授業名 (授業コード[2025])\\学籍番号 名前}
+
+\titlespacing*{\section}     {0pt}{1em}{1em}
+\titlespacing*{\subsection}  {0pt}{0.75em}{0.5em}
+\titlespacing*{\subsubsection}{0pt}{0.5em}{0.25em}
+
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0zw,
+  xleftmargin=3zw,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1zw,
+  lineskip=-0.5ex
+}
+\renewcommand{\lstlistingname}{プログラム}
+
+\title{タイトル}
+
+\begin{document}
+
+\noindent
+\begin{minipage}{\linewidth}
+    {\LARGE \textbf{タイトル}} \\[2mm]
+    {\large \textbf{名前 (学籍番号)}} \\[1mm]
+\end{minipage}
+
+\end{document}
